@@ -1,0 +1,1 @@
+alter table user add column email varchar(50) not null after name;

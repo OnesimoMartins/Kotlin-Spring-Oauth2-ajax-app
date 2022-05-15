@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+ 
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+ 
+    <title> Book Server| Meus livros</title>
+ 
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+ 
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+ 
+    <script src="service.books.js"></script>
+</head>
+
+<body>
+
+
+    <header>
+        <h1 class="title" style="margin-bottom:20px;">Book server</h1>
+
+    </header>
+
+    <div class="logout"><button id="logout">Logout</button></div>
+
+    <main>
+
+        <div class="divisor">
+        <h2 style="font-size: 20px;">Adicionar livro</h2>
+
+        <div class="form-control">
+            <label for="name">Nome</label>
+            <input id="name" placeholder="digite o nome do livro" type="text">
+        </div>
+
+        <h2 style="font-size: 16px;">Nota:</h2>
+
+        <select id="rating">
+            <option selected disabled hidden>classifique o livro</option>
+            <script>[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map(v => document.write("<option value=" + v + " >" + v + "/10</option>"))</script>
+        </select>
+
+        <button id="addBook" onclick="addBook()">Adicionar livro</button>
+    </div>
+
+        <div class="error" hidden id="errorAddBook"></div>
+
+
+
+        <div class="estante">
+            <h2>Minha Estante</h2>
+
+            <table id="books">
+                <tr id="header">
+                    <th>Nome</th>
+                    <th>classificação</th>
+                    <th></th>
+                </tr>
+
+            </table>
+        </div>
+
+
+
+
+    </main>
+
+</body>
+
+</html>

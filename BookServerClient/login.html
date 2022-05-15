@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Book Server|Login</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src='service.login.js'></script>
+</head>
+
+<body>
+
+
+    <header>
+        <h1 class="title">Book server</h1>
+        <h2 class="subtitle">Este é a aplicação onde voce resgistra os livro que já leu !!!</h2>
+    </header>
+
+    <main>
+        <div class="divisor">
+            <h2>Login</h2>
+
+            <div class="form-control">
+                <label for="nome">Email</label>
+                <input id="email" placeholder="digite o email" type="email">
+            </div>
+
+            <div class="form-control">
+                <label for="senha">Palavra-passe</label>
+                <input id="senha" placeholder="digite a senha" type="text">
+            </div>
+
+          
+            <p><input type="checkbox" value="1" id="administrator" >Entrar como administrador</p> 
+
+            <div class="error" id="error" hidden ><p>Email ou senha incorretos</p></div>
+
+            <p>Se ainda não tem uma conta <a style="text-decoration: none;" href="cadastro.html">clique aqui</a></p>
+
+            <input type="button" id="login" onclick="login()" value="Login">
+            <input type="button" value="Voltar" class="back" onclick="GoBack()"/>
+
+        </div>
+
+
+
+
+    </main>
+
+</body>
+
+</html>
