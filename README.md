@@ -11,7 +11,7 @@ O Book Server é um sitema que permite que os usuários guardem as classificaç�
  
  Instalar o JRE.
 
- Instalar o Kotlin compiler. O IDE intellij.....www - [Wamp Server](https://www.wampserver.com/en/) já instala um Kotlin compiler no momento da instalação.
+ Instalar o Kotlin compiler. O IDE intellij já instala um Kotlin compiler.
  
 
 ## :sparkles: Instruções para rodar o projecto
