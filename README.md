@@ -4,9 +4,6 @@
 
 O Book Server é um sitema que permite que os usuários guardem as classificações de seus livros favoritos de forma segura
 
-<h4 align="center"> 
-	🚧 Books Server  🚧
-</h4>
 
 ## :construction_worker: Instalação
 
@@ -32,5 +29,4 @@ O Book Server é um sitema que permite que os usuários guardem as classificaç�
 
 ## :bulb: Tecnologias Utilizadas
 
- <img src="https://img.shields.io/badge/javascript-%23F7DF1E.svg?&style=for-the-badge&logo=javascript&logoColor=black" height="25"/>
  
