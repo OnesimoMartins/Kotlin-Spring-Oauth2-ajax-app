@@ -14,19 +14,9 @@ O Book Server é um sitema que permite que os usuários guardem as classificaç�
  Instalar o Kotlin compiler. O IDE intellij já instala um Kotlin compiler.
  
 
-## :sparkles: Instruções para rodar o projecto
+## :sparkles:	Requisistos para executar em localhost
 
-```bash
-1) git clone https://github.com/josedomingos919/miniStock.git # Clone o repositório em pasta da sua máquina
-
-2) Baixar as dependências e fazer o build 
-
-3) executar o jar
-
-4) Por final abra o seu navegador e comece a apreciar o projecto! digitando => abrindo as páginas html
-```
-
-
-## :bulb: Tecnologias Utilizadas
-
- 
+1. **Java Jdk** ( **8** )
+2.  **IntelliJ IDEA**  :  Backend
+8. **MySQL 8**
+9. **Maven**
